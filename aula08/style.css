@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-color: black ;
+    color: white;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+}
+
+.media-picture{
+
+    background-image:url(https://wallpaperaccess.com/full/1104121.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 500px 
+}
+
+.review-score{
+
+background-color: gold;
+padding: 10pt;
+font-size: 15pt;
+font-weight: 900;
+
+}
+
+h2 {
+
+    color: blue;
+
+}
