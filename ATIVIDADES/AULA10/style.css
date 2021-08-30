@@ -1,0 +1,31 @@
+.banner{
+    text-align: center;
+    background-image:url(https://cdn.pixabay.com/photo/2016/07/08/15/44/banner-1504653_1280.png) ;
+    width: 1000px;
+    height: 500px;
+    padding: 100px 0px 100px;
+    box-sizing: border-box;
+}
+
+h1{
+
+    color: white;
+}
+
+h2{
+
+    color: gold;
+    padding-bottom: 50px;
+
+}
+
+a{
+
+    border: 6px solid  grey;
+    border-radius: 30%;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    background-color:white;
+
+}
