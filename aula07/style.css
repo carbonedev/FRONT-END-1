@@ -1,0 +1,41 @@
+body {
+
+    background-color: rgb(245, 224, 171) ;
+
+}
+
+h1 {
+
+color: darkblue;
+
+}
+
+.job-title {
+
+background-color: darkblue;
+color: rgb(245, 224, 171);
+
+}
+
+#high {
+
+    color: darkblue;
+
+}
+
+h2 {
+
+    font-size: 15px;
+
+}
+
+ul {
+
+    list-style: none;
+    background-color: black;
+    color: rgb(245, 224, 171)
+
+}
+
+
+
