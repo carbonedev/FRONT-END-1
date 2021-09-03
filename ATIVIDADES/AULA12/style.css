@@ -1,0 +1,429 @@
+body{
+
+    height: 1000px;
+    margin:0;
+   
+    
+
+}
+
+header{
+
+    position: fixed;
+    background-color: rgb(250, 37, 37);
+    height: 110px;
+    width: 100%;
+    z-index:100;
+
+}
+
+.logo{
+
+    position:fixed;
+    padding: 5px;
+    padding-left: 5px;
+    width: 100px;
+}
+
+.menu{
+
+    position:absolute;
+    right:10px;
+    padding-top: 65px;
+    
+
+}
+.display{
+
+    text-decoration-style: none;
+    color:black;
+
+}
+
+.font{
+
+    font-size:25px;
+    color: yellow;   
+
+}
+
+.background{
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe9xFEsLE8LqF3v1elsyxVP_QOOdbwllXrSg&usqp=CAU);
+    opacity:20%;
+    z-index: 0;
+    height: 1000px;
+    width: 100%;
+    background-repeat: repeat;
+
+}
+
+.box{
+
+    background-color: yellow;
+    box-sizing: border-box;
+    height: 200px;
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+    opacity: 100%;
+}
+
+.first{
+
+    box-sizing: border-box;
+    top:120px;
+    left: 100px;
+  
+}
+
+.button{
+
+    text-decoration: none;
+    border-radius: 30%;
+    position: relative;
+    box-sizing: border-box;
+    margin:0PX;
+    text-align: center;
+    background-color: red;
+
+}
+.interno1{
+
+    background-image: url(https://rihappy.vtexassets.com/arquivos/ids/380592-150-auto?width=150&height=auto&aspect=true);
+    z-index: 2;
+    top:22px;
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    position: relative;
+
+}
+
+.primeiro{
+
+    font-size: 20px;
+    left: 20px;
+    top: 12px;
+    
+
+}
+.second{
+
+    box-sizing: border-box;
+    top:120px;
+    left: 300px;
+  
+}
+
+.interno2{
+
+    background-image: url(https://a-static.mlcdn.com.br/180x200/lego-city-mini-submarino-oceanico-60263/booralabrinquedos/9458872607/35b8613d654c6ecbaa1b26e706ad2562.jpg);
+    z-index: 2;
+    top:22px;
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    position: relative;
+
+}
+
+.segundo{
+
+    font-size: 20px;
+    left: 7px;
+    top: 12px; 
+}
+
+.third{
+
+    box-sizing: border-box;
+    top:120px;
+    left: 500px;
+  
+}
+
+.interno3{
+
+    background-image: url(https://rihappy.vtexassets.com/arquivos/ids/409160-150-auto?width=150&height=auto&aspect=true);
+    z-index: 2;
+    top:5px;
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    position: relative;
+
+}
+
+.terceiro{
+
+    left: 3px;
+    top: 3px; 
+    font-size: 18px;
+
+}
+.fourth{
+
+    box-sizing: border-box;
+    top:120px;
+    left: 700px;
+  
+}
+
+.interno4{
+
+    background-image: url(https://carrefourbr.vtexassets.com/arquivos/ids/7257909-150-auto?width=150&height=auto&aspect=true);
+    z-index: 2;
+    top:7px;
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    position: relative;
+
+}
+.quarto{
+
+    font-size: 17px;
+    top: 3px;
+    left: 33px;
+    
+  
+}
+
+.fifth{
+
+    box-sizing: border-box;
+    top:120px;
+    left: 900px;
+  
+}
+
+.interno5{
+
+    background-image: url(https://carrefourbr.vtexassets.com/arquivos/ids/11300981-150-auto?width=150&height=auto&aspect=true);
+    z-index: 2;
+    top:7px;
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    position: relative;
+ 
+}
+
+.quinto{
+
+    font-size: 17px;
+    top: 3px;
+    left: 37px;
+    
+
+}
+.sixth{
+
+    box-sizing: border-box;
+    top:120px;
+    left: 1100px;
+  
+}
+
+.interno6{
+
+    background-image: url(https://rihappy.vtexassets.com/arquivos/ids/994063-150-auto?width=150&height=auto&aspect=true);
+    z-index: 2;
+    top:5px;
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    position: relative;
+  
+}
+
+.sexto{
+
+    left: 3px;
+    top: 3px; 
+    font-size: 18px;
+
+
+}
+.seventh{
+
+    box-sizing: border-box;
+    top:420px;
+    left: 100px;
+  
+}
+
+.interno7{
+
+    background-image: url(https://images-americanas.b2w.io/produtos/01/00/img/2934762/2/2934762244P1.jpg);
+    z-index: 2;
+    top:5px;
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    position: relative;
+
+}
+
+.setimo{
+
+    left: 10px;
+    top: 3px; 
+    font-size: 18px;
+
+}
+.eighth{
+
+    box-sizing: border-box;
+    top:420px;
+    left: 300px;
+  
+}
+
+.interno8{
+
+    background-image: url(https://shopfacil.vteximg.com.br/arquivos/ids/77885917-150-150/7662788_1.jpg?v=637522511803400000?v=637522511803400000);
+    z-index: 2;
+    top:7px;
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    position: relative;
+
+}
+.oitavo{
+
+    font-size: 17px;
+    top: 3px;
+    left: 40px;
+    
+}
+
+.ninth{
+
+    box-sizing: border-box;
+    top:420px;
+    left: 500px;
+  
+}
+
+.interno9{
+
+    background-image: url(https://lebes.vteximg.com.br/arquivos/ids/310968-150-150/image-755e2aea8f004d538ad90a4ed7733735.jpg?v=637305253893230000);
+    z-index: 2;
+    top:22px;
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    position: relative;
+ 
+}
+
+.nono{
+
+    font-size: 20px;
+    left: 7px;
+    top: 12px; 
+
+}
+.tenth{
+
+    box-sizing: border-box;
+    top:420px;
+    left: 700px;
+  
+}
+
+.interno10{
+
+    background-image: url(https://images-shoptime.b2w.io/produtos/01/00/img/2884562/5/2884562542P1.jpg);
+    z-index: 2;
+    top:7px;
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    position: relative;
+
+
+}
+
+.decimo{
+
+    font-size: 17px;
+    top: 3px;
+    left: 33px;
+
+
+}
+.eleventh{
+
+    box-sizing: border-box;
+    top:420px;
+    left: 900px;
+  
+}
+
+.interno11{
+
+    background-image: url(https://lebes.vteximg.com.br/arquivos/ids/316092-150-150/image-001b5221e6b34470a4b678142dd4ec9f.jpg?v=637305961662500000);
+    z-index: 2;
+    top:5px;
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    position: relative;
+
+}
+
+.decimoprimeiro{
+
+  
+    left: 25px;
+    top: 3px; 
+    font-size: 18px;
+
+
+}
+.twelfth{
+
+    box-sizing: border-box;
+    top:420px;
+    left: 1100px;
+  
+}
+
+.interno12{
+
+    background-image: url(https://images-shoptime.b2w.io/produtos/01/00/img/2962371/4/2962371435P1.jpg);
+    z-index: 2;
+    top:35px;
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    position: relative;
+
+}
+.decimosegundo{
+
+    top: 18px;
+    left: 5px;
+    font-size: 14px;
+    
+}
+
+.whats{
+
+    background-image: url(https://i0.wp.com/www.multarte.com.br/wp-content/uploads/2018/11/whatsapp-logo-icone-fundo-transparente.png?resize=696%2C712&ssl=1);
+    background-size: contain;
+    position:fixed;
+    width: 100px;
+    height: 100px;
+    right:10px;
+    bottom: 10px;
+    z-index: 10;
+    border: 0;
+    color: transparent;
+    
+
+}
