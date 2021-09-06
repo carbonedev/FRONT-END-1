@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); /*font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@500&display=swap'); /*font-family: 'Besley', serif;*/
+
+body{
+    
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://blogdointercambio.west1.com.br/wp-content/uploads/312495-dublin-ou-cork-qual-e-o-melhor-destino-para-intercambio-na-irlanda.jpg);
+    background-size: cover;
+
+}
+
+h1{
+
+    height: 70px;
+    box-sizing: border-box;
+    font-family: 'Besley', serif, Arial, Helvetica, sans-serif;
+    padding: 10px 0px 10px;
+    margin: 10px 0px 10px;
+}
+
+main p{
+
+    color: rgb(119, 6, 6);
+  
+}
