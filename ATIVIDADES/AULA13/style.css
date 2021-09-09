@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 500 & family = Ubuntu: wght @ 500 & display = swap');
+body{
+
+    background-color: grey;
+
+}
+
+h1{
+    width: 381px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+
+input {
+
+    display: block;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 25px;
+    border: 0px;
+    text-align: center;
+    
+    
+}
+
+label{
+
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+    background-color: rgba(5, 5, 5, 0.151);
+    display: block;
+    width: 381px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+select{
+
+    display: block;
+    width: 381px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+textarea{
+
+    width: 377px;
+    font-size: 25px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+button{
+
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.ok{
+
+    background-color: forestgreen;
+
+}
+
+.reset{
+
+    background-color: rgb(234, 255, 47);
+
+}
