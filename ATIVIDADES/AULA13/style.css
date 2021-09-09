@@ -6,13 +6,19 @@ body{
 }
 
 h1{
-    width: 381px;
+    width: 380px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 
 }
 
-input {
+div {
+    
+    padding: 5px;
+    width: 380px;
+
+}
+.cadastro {
 
     display: block;
     border-bottom-left-radius: 20px;
@@ -25,13 +31,28 @@ input {
     
 }
 
+.birth  {
+
+    display: block;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 25px;
+    border: 0px;
+    text-align: center;
+    width: 100%;
+    
+    
+}
+
+
 label{
 
     border-top-left-radius: 20px ;
     border-top-right-radius: 20px ;
     background-color: rgba(5, 5, 5, 0.151);
     display: block;
-    width: 381px;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     text-align: center;
@@ -41,7 +62,7 @@ label{
 select{
 
     display: block;
-    width: 381px;
+    width: 100%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     font-size: 25px;
@@ -51,16 +72,19 @@ select{
 
 textarea{
 
-    width: 377px;
+    border:0;
+    width: 100%;
     font-size: 25px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-
+    padding:0;
 }
 
 button{
 
-    border-radius: 20px;
+    border: 2px solid;
+    padding: 0;
+    border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
 }
