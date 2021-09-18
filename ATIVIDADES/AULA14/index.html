@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <img src="https://www.lista11.com.br/adm/fotos/estabelecimentos/leide-bolos-e-doces-bolos-confeitados-em-embu-das-artes-bolos-caseiros-em-embu-das-artes-parque-pirajussara-2721-13124.jpg">
+    <form>
+
+   
+    <h1>BOLOS E DOCES DONA ROSA</h1>
+
+        <fieldset>
+
+            <legend>Dados Pessoais</legend>
+
+
+        <div>
+
+            <label class="indice" for="name">Nome</label>
+            <input required class="cadastro" type="text" id="name" nome="name" placeholder="Digite o seu nome">
+            
+        </div>
+            
+        <div>
+
+            <label class="indice" for="email">E-mail</label>
+            <input required class="cadastro" type="text" id="email" nome="email"placeholder="seuemail@email.com">
+            
+        </div>
+
+        <div>
+
+            <label class="indice" for="birthDate">Nascimento</label>
+            <input required class="birth" type="date" id="birthDate" nome="birthDate">
+            
+        </div>
+            
+        <div>
+
+            <label class="indice" for="CPF">CPF</label>
+            <input required class="cadastro" type="number" id="CPF" nome="CPF" placeholder="Digite o seu CPF">
+            
+        </div>
+
+        <div>
+
+            <label class="indice" for="password">Senha</label>
+            <input required class="cadastro" type="password" maxlength="11" id="password" nome="password" placeholder="************" >
+           
+        </div>
+
+        <div>
+
+            <label class="indice" for="passwordConfirm">Repita sua Senha</label>
+            <input required class="cadastro" type="password" maxlength="11" id="passwordConfirm" nome="passwordConfirm" placeholder="************">
+           
+        </div>
+
+        <div>
+
+            <input class="checkbox" type="checkbox" id="person">
+            <label for="person">Pessoa Jurídica</label>
+
+        </div>
+    
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Local para a Entrega</legend>
+
+    
+        <div>
+
+            <label class="indice" for="state">Estado</label>
+            <select required name="state" id="state">
+                <optgroup label="Sudeste">
+                <option value="1">São Paulo</option>
+                <option value="2">Rio de Janeiro</option>
+                <option value="3">Minas Gerais</option>
+                </optgroup>
+
+                <optgroup label="Sul"></optgroup>
+                <option value="1">Paraná</option>
+                <option value="2">Santa Catarina</option>
+                <option value="3">Rio Grande do Sul</option>
+                </optgroup>
+            </select>
+        </div> 
+        
+        <div>
+
+            <label class="indice" for="city">Cidade</label>
+            <input required class="cadastro" type="search" list="citys" name="city" id="city">
+            <datalist id="citys">
+
+                <option value="Santo André">                    
+                <option value="São Bernardo">
+                <option value="São Caetano">
+                <option value="Diadema">
+                <option value="Mauá">
+                <option value="Ribeirão Pires">
+                
+            </datalist>
+
+
+
+        </div>
+        <div>
+
+            <label class="indice" for="comments">Comentários/Observações</label>
+            <textarea name="comments" id="comments" placeholder="Insira algum detalhe para sua entrega"></textarea>
+            
+
+        </div>
+
+        <div class="tipoEntrega">
+
+            <input type="radio" name="option" id="option">
+            <label for="option">Contato com o entregador</label>
+            <input type="radio" name="option" id="option">
+            <label for="option">Não quer contato com o entregador</label>
+            <input type="radio" name="option" id="option">
+            <label for="option">Retirar</label>
+
+        </div>
+
+        </fieldset> 
+        <div>
+
+            <button class="ok" type="submit">Enviar para o Carrinho</button>
+            <button class="reset" type="reset">Esvaziar o Carrinho</button>
+
+        </div>
+
+        <fieldset>
+
+            <legend>Pedido</legend>
+
+            <div>
+                <h2>Massa do Bolo</h2>
+                
+                <input type="radio" name="cake" id="option">
+                <label for="cake">Bolo pão de ló de Chocolate</label>
+                <img src="https://i.ytimg.com/vi/qmIfjBGsye8/hqdefault.jpg" alt="">
+
+            </div>
+
+
+
+            <div>
+
+    
+                <input type="radio" name="cake" id="option">
+                <label for="cake">Bolo pão de ló Tradicional</label>
+                <img src="https://www.dicasdemulher.com.br/wp-content/uploads/2018/03/pao-de-lo-15.jpg" alt="">
+
+            </div>
+
+
+            <div>
+
+                <input type="radio" name="cake" id="option">
+                <label for="cake">Bolo pão de ló de Laranja</label>
+                <img src="https://www.anamariabrogui.com.br/assets/uploads/receitas/fotos/usuario-3194-91db7171cc4f0da498df66ed500dcbf5.JPG">
+            </div>
+
+
+            <div>
+
+        
+                <input type="radio" name="cake" id="option">
+                <label for="cake">Bolo pão de ló de Fubá</label>
+                <img src="https://p7m4z9n9.stackpathcdn.com/wp-content/uploads/2018/12/paodelo-3ingredientes-receita.jpg" alt="">
+
+            </div>
+
+
+            <div>
+                <h2>Recheios</h2>
+            <input class="checkbox" type="checkbox" id="recheio">
+            <label for="recheio">Brigadeiro</label>
+            <input class="checkbox" type="checkbox" id="recheio">
+            <label for="recheio">Morango</label>
+            <input class="checkbox" type="checkbox" id="recheio">
+            <label for="recheio">Frutas Vermelhas</label>
+
+            </div>
+
+            <div>
+                <h2>Coberturas</h2>
+            <input class="checkbox" type="checkbox" id="cobertura">
+            <label for="cobertura">Chocolate</label>
+            <input class="checkbox" type="checkbox" id="cobertura">
+            <label for="cobertura">Chantilly</label>
+            <input class="checkbox" type="checkbox" id="cobertura">
+            <label for="cobertura">Naked</label>
+
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Forma de Pagamento</legend>
+
+
+            <input type="radio" name="pagamento" id="pagamento">
+            <label for="pagamento">Pix</label>
+            <input type="radio" name="pagamento" id="pagamento">
+            <label for="pagamento">Débito</label>
+            <input type="radio" name="pagamento" id="pagamento">
+            <label for="pagamento">Crédito</label>
+            <input type="radio" name="pagamento" id="pagamento">
+            <label for="pagamento">Dinheiro</label>
+            
+        </fieldset>
+
+    </form>
+
+    
+</body>
+</html>
