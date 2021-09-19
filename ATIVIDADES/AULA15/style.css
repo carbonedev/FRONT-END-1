@@ -1,0 +1,101 @@
+button {
+
+    border: none;
+    padding: 12px 24px;
+    background-color: tomato;
+    color: white;
+    transition-duration: .5s;
+
+}
+
+button:hover {
+
+    background-color: violet;  
+    
+}
+
+input {
+
+    background-color: rgba(128, 128, 128, 0);
+    border: none;
+    color: blue;
+    border: 1px solid;
+
+
+}
+input:enabled {
+
+    background-color: rgba(128, 128, 128, 0);
+
+}
+input:hover{
+
+    padding: 12px;
+
+}
+
+input:focus {
+
+    background-color: thistle;
+
+}
+
+input:disabled{
+
+    opacity: .2;
+
+}
+
+input:valid {
+
+    border-color: green;
+
+
+}
+input:invalid {
+
+    border-color: red;
+
+
+}
+
+.checkbox {
+
+    transition-duration: .5s;
+
+}
+
+.checkbox:checked {
+
+    transform: skew(15deg);
+    
+
+}
+
+td:nth-child(6n) {
+
+        background-color: grey;
+        color: red;
+
+}
+
+p::first-letter {
+
+    color: red;
+    font-size: 48px;
+    
+}
+
+p::before {
+
+    content: "teste";
+
+}
+
+
+.ex2:optional{
+
+    background-color: yellow;
+
+}
+

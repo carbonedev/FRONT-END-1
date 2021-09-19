@@ -1,0 +1,93 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-bpx;
+
+}
+
+
+
+@keyframes move {
+
+    0% {
+        
+        opacity: 0;
+
+    }
+
+    25% {
+        transform: translatex(300px);
+        opacity: .25;
+
+
+    }
+    
+    50% {
+        transform: translatex(600px);
+        opacity: .5;
+  
+
+    }
+
+    75% {
+        transform: translatex(900px);
+        opacity: .75;
+       
+
+    }
+
+    100% {
+        transform: translateX(1200px);
+        opacity: 1;
+
+    }
+}
+
+div {
+
+    
+    font-size: 60px;
+    margin:0;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+img {
+
+    box-sizing: border-box;
+    width: 80px;
+    margin: 100px auto;
+    display: block;
+}
+
+img:hover{
+
+    transform:  translate(100px) rotate(90deg) scale(1.5);
+   
+
+}
+
+button{
+
+    border: none;
+    background-color: aqua;
+    box-sizing: border-box;
+    width: 100px;
+    height: 80px;
+    margin: 100px auto;
+    font-size: 20px;
+    display: block;
+    transition: .5s ease-in-out;
+
+}
+
+button:hover{
+
+    background-color: blue;
+    color: white;
+
+
+}
