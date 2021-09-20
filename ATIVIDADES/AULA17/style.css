@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 500 & family = Ubuntu: wght @ 500 & display = swap');
+
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    background-color: black;
+
+}
+
+header{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+ 
+}
+
+header h1{
+
+    color: White;
+    font-family: 'Roboto', sans-serif;
+   
+
+}
+
+main{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+
+
+}
+
+main div{
+
+    height:500px;
+    width: 300px;
+
+
+}
+
+div{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  
+}
+
+div h2, p{
+
+    color: white;
+    font-family:'Ubuntu', sans-serif;
+
+}
+
+
+
+
+
+
