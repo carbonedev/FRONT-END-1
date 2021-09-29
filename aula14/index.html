@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <form>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM9EXUSa_uX8p8GJQ5Si7rIMf4OOPxK5Piag&usqp=CAU" alt="">
+
+    <h1>Cadastro de Clientes</h1>
+
+        <fieldset>
+
+            <legend>Dados Pessoais</legend>
+
+
+        <div>
+
+            <label class="indice" for="name">Nome</label>
+            <input required class="cadastro" type="text" id="name" nome="name" placeholder="Digite o seu nome">
+            
+        </div>
+            
+        <div>
+
+            <label class="indice" for="email">E-mail</label>
+            <input required class="cadastro" type="text" id="email" nome="email"placeholder="seuemail@email.com">
+            
+        </div>
+
+        <div>
+
+            <label class="indice" for="birthDate">Nascimento</label>
+            <input required class="birth" type="date" id="birthDate" nome="birthDate">
+            
+        </div>
+            
+        <div>
+
+            <label class="indice" for="CPF">CPF</label>
+            <input required class="cadastro" type="number" id="CPF" nome="CPF" placeholder="Digite o seu CPF">
+            
+        </div>
+
+        <div>
+
+            <label class="indice" for="password">Senha</label>
+            <input required class="cadastro" type="password" maxlength="11" id="password" nome="password" placeholder="************" >
+           
+        </div>
+
+        <div>
+
+            <label class="indice" for="passwordConfirm">Repita sua Senha</label>
+            <input required class="cadastro" type="password" maxlength="11" id="passwordConfirm" nome="passwordConfirm" placeholder="************">
+           
+        </div>
+
+        <div>
+
+            <input class="checkbox" type="checkbox" id="person">
+            <label for="person">Pessoa Jurídica</label>
+
+        </div>
+    
+        <div>
+
+            <input type="radio" name="option" id="option">
+            <label for="option">Contato com o entregador</label>
+            <input type="radio" name="option" id="option">
+            <label for="option">Não quer contato com o entregador</label>
+            <input type="radio" name="option" id="option">
+            <label for="option">Retirar</label>
+
+        </div>
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Localização</legend>
+
+    
+        <div>
+
+            <label class="indice" for="state">Estados</label>
+            <select required name="state" id="state">
+                <optgroup label="Sudeste">
+                <option value="1">São Paulo</option>
+                <option value="2">Rio de Janeiro</option>
+                <option value="3">Minas Gerais</option>
+                </optgroup>
+
+                <optgroup label="Sul"></optgroup>
+                <option value="1">Paraná</option>
+                <option value="2">Santa Catarina</option>
+                <option value="3">Rio Grande do Sul</option>
+                </optgroup>
+            </select>
+        </div> 
+        
+        <div>
+
+            <label class="indice" for="city">Cidade</label>
+            <input required class="cadastro" type="search" list="citys" name="city" id="city">
+            <datalist id="citys">
+
+                <option value="Santo André">                    
+                <option value="São Bernardo">
+                <option value="São Caetano">
+                <option value="Diadema">
+                <option value="Mauá">
+                <option value="Ribeirão Pires">
+                
+            </datalist>
+
+
+
+        </div>
+        <div>
+
+            <label class="indice" for="comments">Comentários/Observações</label>
+            <textarea name="comments" id="comments" placeholder="Insira com detalhes sua entrega"></textarea>
+            
+
+        </div>
+        </fieldset> 
+        <div>
+
+            <button class="ok" type="submit">Cadastrar</button>
+            <button class="reset" type="reset">Limpar</button>
+
+        </div>
+
+    </form>
+
+    
+</body>
+</html>

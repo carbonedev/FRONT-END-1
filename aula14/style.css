@@ -12,6 +12,14 @@ h1{
 
 }
 
+
+fieldset{
+
+    width: fit-content;
+
+}
+
+
 div {
     
     padding: 5px;
@@ -46,7 +54,7 @@ div {
 }
 
 
-label{
+.indice{
 
     border-top-left-radius: 20px ;
     border-top-right-radius: 20px ;
@@ -72,6 +80,7 @@ select{
 
 textarea{
 
+    
     border:0;
     width: 100%;
     font-size: 25px;

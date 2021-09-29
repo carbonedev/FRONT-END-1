@@ -1,0 +1,24 @@
+@import 'button.scss';
+
+
+ul{
+
+    background-color: red;
+
+    li{
+
+        color: aqua;
+
+        a{
+
+            &:hover{
+
+                color: white;
+
+            }
+        }    
+
+    }
+
+
+}

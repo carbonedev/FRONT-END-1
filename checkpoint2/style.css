@@ -9,10 +9,9 @@
 }
 
 body{
-
     
     display: grid;
-    grid-template-columns: 250px 1fr;
+    grid-template-columns: 350px 1fr;
     grid-template-areas:
     'header header'
     'aside main';
@@ -66,6 +65,12 @@ nav{
 
 }
 
+fieldset div{
+
+    display: flex;
+    flex-direction: column;
+
+}
 nav h2{
 
     font-family: 'Ubuntu', sans-serif;
@@ -88,13 +93,13 @@ div label{
 
 .cadastro{
 
-    width:100%;
+    width:90%;
 
 }
 
 .birth{
 
-    width: 100%;
+    width: 90%;
     color: grey;
     font-family: 'Ubuntu', sans-serif;
 
@@ -102,14 +107,14 @@ div label{
 
 textarea{
 
-    width: 100%;
+    width: 90%;
     height: 80px;
 
 }
 
 select{
 
-    width: 100%;
+    width: 90%;
 
 }
 
@@ -128,6 +133,7 @@ fieldset legend{
 }
 
 .intro{
+
 
     text-align: justify;
     color: rgb(53, 52, 52);
@@ -153,7 +159,7 @@ main section{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 15px;
+    gap: 20px;
     justify-content: center;
 
 
@@ -200,12 +206,15 @@ button{
 button:hover{
 
     transform: scale(1.1);
+    
+    
 
 }
 
 input:hover{
 
     transform: scale(1.1);
+   
 
 }
 
